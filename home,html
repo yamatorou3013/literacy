@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上野大和風ウェブサイト</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #1D1D1B; /* ダークグレー */
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #1D1D1B; /* ダークグレー */
+            color: #F2F2F2;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+        }
+        footer {
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="background-color: #F2F2F2;"> <!-- ライトグレー -->
+
+    <header>
+        <h1>上野大和風ウェブサイト</h1>
+    </header>
+
+    <div class="content" style="padding: 20px;"> <!-- ライトグレー背景指定 -->
+        <h2>ようこそ</h2>
+        <p>これは上野大和のウェブサイトを模倣したシンプルなHTMLテンプレートです。</p>
+        <p>アクセントカラーとして <span class="highlight">ゴールド</span> を使用しています。</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 上野大和風ウェブサイト</p>
+    </footer>
+</body>
+</html>
